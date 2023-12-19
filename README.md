@@ -11,5 +11,12 @@ This project is intended to demonstrate the following:
 
 
 BRANCHES:
-01_adding_profiles: We add a test and prod profile and get Liquibase ready so the application can run. The assumption
-we make is that our test profile will use H2 and the prod will be our PostgreSQL database.
+01_adding_profiles: 
+* We add a test and prod profile and get Liquibase ready so the application can run. 
+* We set up Liquibase to create the customer table as the initial sql file to execute
+* The assumption we make is that our test profile will use H2 and the prod will be our PostgreSQL database.
+
+02_adding_jpa_and_test_case (for H2)
+* Add Entity class for customer (extends BaseEntity)
+* Add H2 test case 
+
