@@ -10,3 +10,6 @@ This project is intended to demonstrate the following:
 5. A documented pdf file with step-by-step instructions (once done).
 
 
+BRANCHES:
+01_adding_profiles: We add a test and prod profile and get Liquibase ready so the application can run. The assumption
+we make is that our test profile will use H2 and the prod will be our PostgreSQL database.
