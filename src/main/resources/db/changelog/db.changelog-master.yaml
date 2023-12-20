@@ -3,4 +3,10 @@ databaseChangeLog:
       file: classpath:/db/changelog/changes/001-initial-schema.sql
   - include:
       file: classpath:/db/changelog/changes/002-create-product.sql
+  - include:
+      file: classpath:/db/changelog/changes/003-create-category.sql
+  - include:
+      file: classpath:/db/changelog/changes/004-create-order-header-table.sql
+  - include:
+      file: classpath:/db/changelog/changes/005-create-order-approval-line-tables.sql
 
