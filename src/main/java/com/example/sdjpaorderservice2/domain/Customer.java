@@ -27,4 +27,6 @@ public class Customer extends BaseEntity {
 
     @Version
     private Integer version;
+
+    public Customer() {}
 }

@@ -2,14 +2,12 @@ package com.example.sdjpaorderservice2.domain;
 
 import jakarta.persistence.Embeddable;
 import jakarta.validation.constraints.Size;
-import lombok.Getter;
-import lombok.Setter;
-import lombok.ToString;
+import lombok.*;
+
+import java.util.Objects;
 
 @Embeddable
-@Getter
-@Setter
-@ToString
+@Data
 public class Address {
     @Size(max=30)
     private String address;
@@ -22,4 +20,6 @@ public class Address {
 
     @Size(max=30)
     private String zipCode;
+
+    public Address() {}
 }
